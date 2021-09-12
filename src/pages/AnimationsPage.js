@@ -102,8 +102,8 @@ export default function AnimationsPage() {
         <div className="col-md-12 col-sm-12">
           <h3>Animation Utilities</h3>
           <p>
-            Bootstrap's default utility classes can be found on the official{" "}
-            <span style={{ color: "#4e73df" }}> Bootstrap Documentation</span>{" "}
+            Bootstrap's default utility classes can be found on the official
+            <span style={{ color: "#4e73df" }}> Bootstrap Documentation</span>
             page. The custom utilities below were created to extend this theme
             past the default utility classes built into Bootstrap's framework.
           </p>

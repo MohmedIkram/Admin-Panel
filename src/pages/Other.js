@@ -9,8 +9,8 @@ export default function Other() {
           <div className="col-sm-12 col-md-12">
             <h3>Others</h3>
             <p>
-              Bootstrap's default utility classes can be found on the official{" "}
-              <span style={{ color: "#4e73df" }}> Bootstrap Documentation</span>{" "}
+              Bootstrap's default utility classes can be found on the official
+              <span style={{ color: "#4e73df" }}> Bootstrap Documentation</span>
               page. The custom utilities below were created to extend this theme
               past the default utility classes built into Bootstrap's framework.
             </p>
@@ -77,7 +77,7 @@ export default function Other() {
                   </Dropdown.Item>
                 </DropdownButton>
                 <p>
-                  Use <code>.no-arrow</code> alongside the{" "}
+                  Use <code>.no-arrow</code> alongside the
                   <code>.dropdown</code>
                 </p>
               </div>

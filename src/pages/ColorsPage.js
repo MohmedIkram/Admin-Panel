@@ -77,40 +77,32 @@ export default function ColorsPage() {
               <div className="card-body">
                 <ul className="list">
                   <li id="primaryBg" className="element colorCard ">
-                    {" "}
-                    .bg-gradient-primary{" "}
+                    .bg-gradient-primary
                   </li>
                   <li id="secondaryBg" className="element colorCard ">
-                    {" "}
-                    .bg-gradient-secondary{" "}
+                    .bg-gradient-secondary
                   </li>
                   <li id="successBg" className="element colorCard ">
-                    {" "}
-                    .bg-gradient-success{" "}
+                    .bg-gradient-success
                   </li>
                   <li id="infoBg" className="element colorCard ">
-                    {" "}
-                    .bg-gradient-info{" "}
+                    .bg-gradient-info
                   </li>
                   <li id="warningBg" className="element colorCard ">
-                    {" "}
-                    .bg-gradient-warning{" "}
+                    .bg-gradient-warning
                   </li>
                   <li id="dangerBg" className="element colorCard ">
-                    {" "}
-                    .bg-gradient-danger{" "}
+                    .bg-gradient-danger
                   </li>
                   <li
                     id="lightBg"
                     style={{ color: "grey" }}
                     className="element colorCard "
                   >
-                    {" "}
-                    .bg-gradient-light{" "}
+                    .bg-gradient-light
                   </li>
                   <li id="darkBg" className="element colorCard ">
-                    {" "}
-                    .bg-gradient-dark{" "}
+                    .bg-gradient-dark
                   </li>
                 </ul>
               </div>

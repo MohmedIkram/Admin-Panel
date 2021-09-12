@@ -64,16 +64,16 @@ export function LoginForm({ welcome, loginTxt, account }) {
           </Form.Check>
           <Button className="buttons" variant="primary">
             {loginTxt}
-          </Button>{" "}
+          </Button>
           <hr className="divider" />
           <Button className="buttons" variant="danger">
             <i class="fab fa-google fa-fw btnIcon"></i>
             {loginTxt} with Google
-          </Button>{" "}
+          </Button>
           <Button className="buttons" id="dark">
             <i class="fab fa-facebook-f btnIcon"></i>
             {loginTxt} with facebook
-          </Button>{" "}
+          </Button>
           <Link className="nextPg" to="/Forgot Password">
             Forgot Password?
           </Link>
@@ -124,16 +124,16 @@ export default function Login() {
             </Form.Check>
             <Button className="buttons" variant="primary">
               Login
-            </Button>{" "}
+            </Button>
             <hr className="divider" />
             <Button className="buttons" variant="danger">
             <i class="fab fa-google fa-fw btnIcon"></i>
               Login with Google
-            </Button>{" "}
+            </Button>
             <Button className="buttons" id="dark">
             <i class="fab fa-facebook-f btnIcon"></i>
               Login with facebook
-            </Button>{" "}
+            </Button>
             <Link className="nextPg" to='/Forgot Password'>Forgot Password?</Link>
             <Link className="nextPg" to='/Forgot Password'>Create an Account</Link>
            

@@ -512,7 +512,7 @@ const DatatablePage = () => {
           <h3>Tables</h3>
           <p className="chartPara">
             DataTables is a third party plugin that is used to generate the demo
-            table below. For more information about DataTables, please visit the{" "}
+            table below. For more information about DataTables, please visit the
             <a href="#doc">official DataTables documentation.</a>
           </p>
           <div className="card">

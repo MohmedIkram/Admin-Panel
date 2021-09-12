@@ -14,7 +14,7 @@ export default function ChartsPage() {
             <p className="chartPara">
               Chart.js is a third party plugin that is used to generate the
               charts in this theme. The charts below have been customized - for
-              further customization options, please visit the{" "}
+              further customization options, please visit the
               <a href="#Doc">official Chart.js documentation.</a>
             </p>
           </div>
@@ -28,8 +28,7 @@ export default function ChartsPage() {
               </div>
               <div className="card-footer">
                 <p className="chartPara">
-                  {" "}
-                  Styling for the area chart can be found in the{" "}
+                  Styling for the area chart can be found in the
                   <code> /js/demo/chart-area-demo.js</code> file.
                 </p>
               </div>
@@ -43,8 +42,7 @@ export default function ChartsPage() {
               </div>
               <div className="card-footer">
                 <p className="chartPara">
-                  {" "}
-                  Styling for the Donut chart can be found in the{" "}
+                  Styling for the Donut chart can be found in the
                   <code> /js/demo/chart-pie-demo.js</code> file.
                 </p>
               </div>
@@ -60,8 +58,7 @@ export default function ChartsPage() {
               </div>
               <div className="card-footer">
                 <p className="chartPara">
-                  {" "}
-                  Styling for the bar chart can be found in the{" "}
+                  Styling for the bar chart can be found in the
                   <code> /js/demo/chart-bar-demo.js</code> file.
                 </p>
               </div>

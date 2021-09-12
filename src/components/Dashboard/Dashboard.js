@@ -200,7 +200,6 @@ export default function Dashboard() {
                 classes.
               </p>
               <p>
-                {" "}
                 Before working with this theme, you should become familiar with
                 the Bootstrap framework, especially the utility classes.
               </p>
