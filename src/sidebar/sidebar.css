@@ -7,18 +7,18 @@
 .sideBar {
   background: #4e73df;
   color: white;
-  grid-area:sidebar;
+  grid-area: sidebar;
   width: 15vw;
   /* margin-top: -61px; */
   /* height: 10%; */
-  display:flex;
+  display: flex;
 }
-#SidebarToggle1{
-  display:block;
+#SidebarToggle1 {
+  display: block;
 }
 @media screen and(max-width:700px) {
-  #SidebarToggle1{
-    display:none;
+  #SidebarToggle1 {
+    display: none;
   }
   .sideBar {
     width: 10vw;
@@ -40,7 +40,7 @@
 .sidebar-brand-text {
   /* height: 4.375rem; */
   text-decoration: none;
-  width:150px;
+  width: 150px;
   font-size: 1rem;
   font-weight: 500;
   padding: 1.5rem 1rem;
@@ -59,12 +59,11 @@ span {
   margin-left: 5px;
   font-size: 14px;
 }
-@media screen and (max-width:700px) {
-    span{
-        width:70px;
-      
-    }
-    /* .componentBox{
+@media screen and (max-width: 700px) {
+  span {
+    width: 70px;
+  }
+  /* .componentBox{
         width:60px;
     } */
 }
@@ -86,7 +85,6 @@ i:hover{
 }
 li {
   padding: 15px;
-
 }
 .sidebar-heading {
   margin-left: 20px;
@@ -98,7 +96,7 @@ li {
 }
 .dropDownBox {
   background-color: white;
-  width:300px;
+  width: 300px;
 }
 .dropDownLink {
   /* color:black;
@@ -111,96 +109,95 @@ li {
   border-radius: 0.35rem;
   white-space: nowrap;
 }
-.dropDownLink:hover{
-    text-decoration: none;
+.dropDownLink:hover {
+  text-decoration: none;
 }
 .dropDownBox:hover {
   background: rgba(255, 255, 255, 0.692);
 }
-.sidebar-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: .875rem;
-    border-radius: .35rem;
-    color: rgba(255,255,255,.8);
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    background-color: rgba(0,0,0,.1);
+.sidebar-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.875rem;
+  border-radius: 0.35rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.1);
 }
-.sidebar-card-image{
-    width:50px;
-    height:50px;
+.sidebar-card-image {
+  width: 50px;
+  height: 50px;
 }
-.right-arrow{
-    float:right;
-    color:rgba(255, 255, 255, 0.4)
-}
-
-
-.pages{
-    color:rgba(255, 255, 255, 0.4)
-}
-.pages:hover{
-    color:white;
-}
-.Link{
-    text-align: left;
-    padding: .5rem 1rem;
-    margin: 0 .5rem;
-    display: block;
-    color: #3a3b45;
-    text-decoration: none;
-    border-radius: .35rem;
-    white-space: nowrap;
-}
-.sub-heading{
-    margin-left:-40px;
-    white-space: nowrap;
-    padding: .5rem 1.5rem;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: .65rem;
-    color: #b7b9cc;
-}
-.dropList{
-    list-style-type: none;
-    margin-top: 10px;
-    width:200px;
-    border-radius: 5px;
-    background: white;
+.right-arrow {
+  float: right;
+  color: rgba(255, 255, 255, 0.4);
 }
 
-@media screen  and (max-width:700px){
-  .dropList{
+.pages {
+  color: rgba(255, 255, 255, 0.4);
+}
+.pages:hover {
+  color: white;
+}
+.Link {
+  text-align: left;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  display: block;
+  color: #3a3b45;
+  text-decoration: none;
+  border-radius: 0.35rem;
+  white-space: nowrap;
+}
+.sub-heading {
+  margin-left: -40px;
+  white-space: nowrap;
+  padding: 0.5rem 1.5rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 0.65rem;
+  color: #b7b9cc;
+}
+.dropList {
+  list-style-type: none;
+  margin-top: 10px;
+  width: 200px;
+  border-radius: 5px;
+  background: white;
+}
+
+@media screen and (max-width: 700px) {
+  .dropList {
     width: 70px;
   }
-  .nav-item-active{
+  .nav-item-active {
     margin-left: -10px;
   }
-  #li{
+  #li {
     margin-left: -40px;
   }
-  .sub-heading{
+  .sub-heading {
     margin-left: -60px;
   }
 }
-#splArrow{
-    background-color: rgba(255,255,255,.2);
-    color:rgba(255, 255, 255, 0.4);
-    width:40px;
-    height:40px;
-    border-radius: 50%;
-   text-align: center;
-   margin:auto;
-    cursor: pointer; 
-    position:relative;
-    margin-bottom: 1.5rem;
+#splArrow {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.4);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 1.5rem;
 }
-#SplIcon{
-    position:absolute;
-    top:10px;
-    left:17px;
+#SplIcon {
+  position: absolute;
+  top: 10px;
+  left: 17px;
 }

@@ -13,7 +13,7 @@ function RegForm({ welcome, loginTxt, account }) {
       <div className="col-md-12 col-sm-12 loginRow">
         <div className="imgDiv">
           <img
-          style={{width:'600px'}}
+            style={{ width: "600px" }}
             src="https://images.unsplash.com/photo-1517849845537-4d257902454a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxfDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&w=1080&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit"
             alt=""
           />
@@ -21,41 +21,41 @@ function RegForm({ welcome, loginTxt, account }) {
         <div className=" form">
           <h3 className="textCenter">{welcome}</h3>
           {/* <div style={{ display: "flex" }}> */}
-            <Form.Control
-              style={{ display: loginTxt === "Register" ? "block" : "none" }}
-              size="sm"
-              type="text"
-              placeholder="First Name"
-              className="formControl"
-            />
-            <Form.Control
-              style={{ display: loginTxt === "Register" ? "block" : "none" }}
-              size="sm"
-              type="text"
-              placeholder="Last Name"
-              className="formControl"
-            />
+          <Form.Control
+            style={{ display: loginTxt === "Register" ? "block" : "none" }}
+            size="sm"
+            type="text"
+            placeholder="First Name"
+            className="formControl"
+          />
+          <Form.Control
+            style={{ display: loginTxt === "Register" ? "block" : "none" }}
+            size="sm"
+            type="text"
+            placeholder="Last Name"
+            className="formControl"
+          />
           {/* </div> */}
-          <Form.Control 
+          <Form.Control
             size="sm"
             type="text"
             placeholder="Enter Email address..."
             className="formControl "
           />
           {/* <div style={{ display: "flex" }}> */}
-            <Form.Control
-              size="sm"
-              type="text"
-              placeholder="Password"
-              className="formControl"
-            />
-            <Form.Control
-              style={{ display: loginTxt === "Register" ? "block" : "none" }}
-              size="sm"
-              type="text"
-              placeholder=" Repeat Password"
-              className="formControl"
-            />
+          <Form.Control
+            size="sm"
+            type="text"
+            placeholder="Password"
+            className="formControl"
+          />
+          <Form.Control
+            style={{ display: loginTxt === "Register" ? "block" : "none" }}
+            size="sm"
+            type="text"
+            placeholder=" Repeat Password"
+            className="formControl"
+          />
           {/* </div> */}
           <Form.Check
             style={{ display: "none" }}

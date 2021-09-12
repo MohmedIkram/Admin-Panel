@@ -99,7 +99,12 @@ export default function Dashboard() {
       <div style={{ marginTop: "20px" }} className="row">
         <div className="col-md-6">
           <div className="card">
-            <div  style={{ background: "rgb(248, 249, 252)" }}className="card-header chart-heading">Projects</div>
+            <div
+              style={{ background: "rgb(248, 249, 252)" }}
+              className="card-header chart-heading"
+            >
+              Projects
+            </div>
             <div className="card-body">
               <div className="col-md-12 col-sm-12">
                 <Progress
@@ -139,7 +144,12 @@ export default function Dashboard() {
         </div>
         <div className="col-md-6 col-sm-12">
           <div className="card">
-            <div  style={{ background: "rgb(248, 249, 252)" }}className="card-header chart-heading">Illustration</div>
+            <div
+              style={{ background: "rgb(248, 249, 252)" }}
+              className="card-header chart-heading"
+            >
+              Illustration
+            </div>
             <div style={{ padding: "50px" }} className="card-body">
               <img
                 style={{ width: "200px", textAlign: "center" }}
@@ -198,7 +208,6 @@ export default function Dashboard() {
           </div>
         </div>
       </div>
-      
     </div>
   );
 }

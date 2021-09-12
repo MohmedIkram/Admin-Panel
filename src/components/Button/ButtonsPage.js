@@ -199,10 +199,13 @@ export default function ButtonsPage() {
               <div className="card-header">Split Buttons</div>
               <div className="card-body">
                 Works with any button colors, just use the{" "}
-               <p> <code>.btn-icon-split</code> class and the markup in the
-                examples below. The examples below also use the{" "}
-                <code>.text-white-50</code> helper class on the icons for
-                additional styling, but it is not required.</p>
+                <p>
+                  {" "}
+                  <code>.btn-icon-split</code> class and the markup in the
+                  examples below. The examples below also use the{" "}
+                  <code>.text-white-50</code> helper class on the icons for
+                  additional styling, but it is not required.
+                </p>
                 <SplitButton
                   text="Split button Primary"
                   color="primary"

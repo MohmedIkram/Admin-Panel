@@ -3,7 +3,7 @@ import "./login.css";
 import { Form, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-export function LoginForm({welcome,loginTxt,account}) {
+export function LoginForm({ welcome, loginTxt, account }) {
   return (
     <div
       style={{
@@ -13,20 +13,23 @@ export function LoginForm({welcome,loginTxt,account}) {
     >
       <div className="col-md-12 col-sm-12 loginRow">
         <div className="imgDiv">
-          <img id="img"
+          <img
+            id="img"
             src="https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxfDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&w=1080&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit"
             alt=""
           />
         </div>
         <div className=" form">
           <h3 className="textCenter">{welcome}</h3>
-          <Form.Control style={{display:loginTxt==="Register" ? 'block' : 'none'}}
+          <Form.Control
+            style={{ display: loginTxt === "Register" ? "block" : "none" }}
             size="sm"
             type="text"
             placeholder="First Name"
             className="formControl"
           />
-           <Form.Control style={{display:loginTxt==="Register" ? 'block' : 'none'}}
+          <Form.Control
+            style={{ display: loginTxt === "Register" ? "block" : "none" }}
             size="sm"
             type="text"
             placeholder="Last Name"
@@ -38,14 +41,14 @@ export function LoginForm({welcome,loginTxt,account}) {
             placeholder="Enter Email address..."
             className="formControl"
           />
-
           <Form.Control
             size="sm"
             type="text"
             placeholder="Password"
             className="formControl"
           />
-            <Form.Control style={{display:loginTxt==="Register" ? 'block' : 'none'}}
+          <Form.Control
+            style={{ display: loginTxt === "Register" ? "block" : "none" }}
             size="sm"
             type="text"
             placeholder=" Repeat Password"
@@ -60,22 +63,22 @@ export function LoginForm({welcome,loginTxt,account}) {
             <Form.Check.Label>Remember Me</Form.Check.Label>
           </Form.Check>
           <Button className="buttons" variant="primary">
-           { loginTxt}
+            {loginTxt}
           </Button>{" "}
           <hr className="divider" />
           <Button className="buttons" variant="danger">
             <i class="fab fa-google fa-fw btnIcon"></i>
-            { loginTxt} with Google
+            {loginTxt} with Google
           </Button>{" "}
           <Button className="buttons" id="dark">
             <i class="fab fa-facebook-f btnIcon"></i>
-            { loginTxt} with facebook
+            {loginTxt} with facebook
           </Button>{" "}
           <Link className="nextPg" to="/Forgot Password">
             Forgot Password?
           </Link>
           <Link className="nextPg" to="/Register">
-            {account} 
+            {account}
           </Link>
         </div>
       </div>
@@ -139,7 +142,11 @@ export default function Login() {
          
         </div>
       </div> */}
-      <LoginForm welcome="Welcome Back!" loginTxt="Login" account="Create an Account!"/>
+      <LoginForm
+        welcome="Welcome Back!"
+        loginTxt="Login"
+        account="Create an Account!"
+      />
     </div>
     // <div className="container login">
     //   <div className="row">
