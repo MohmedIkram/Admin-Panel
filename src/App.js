@@ -1,15 +1,16 @@
-import "./App.css";
-import Pannel from "./Pannel";
-import Navbar from "./Navbar";
-import Dashboard from "./home/Dashboard";
+import React from "react";
+
+import Header from "./Header/Header";
+import Sidebar from "./sidebar/sidebar";
 
 function App() {
   return (
-    <div className="App">
-      {/* <Navbar /> */}
-      {/* <Pannel /> */}
-      <Dashboard />
-    </div>
+    <>
+      <div style={{ display: "flex" }}>
+        <Sidebar />
+        <Header />
+      </div>
+    </>
   );
 }
 
